@@ -1,6 +1,6 @@
 {
   "name": "clilighth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "make cli template",
   "main": "index.js",
   "bin": {
