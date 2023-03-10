@@ -17,3 +17,7 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 ## [1.0.1] - 2023-03-10
 
 - cli to npm
+
+## [1.0.2] - 2023-03-10
+
+- package change version
