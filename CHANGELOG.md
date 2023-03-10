@@ -13,3 +13,7 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 ## [1.0.0] - 2023-03-10
 
 - 初步版本 简单实现 
+
+## [1.0.1] - 2023-03-10
+
+- cli to npm
