@@ -2,21 +2,22 @@
 name: CI
 on:
   push:
-     branches: [ master ]
-#     tags:
-#       - 'v*.*.*'
+    #  branches: [ master ]
+    tags:
+      - 'v*.*.*'
 jobs:
-#   create-release:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
-#       - uses: taiki-e/create-gh-release-action@v1
-#         with:
-#           # (optional) Path to changelog.
-#           changelog: CHANGELOG.md
-#         env:
-#           # (required) GitHub token for creating GitHub Releases.
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: taiki-e/create-gh-release-action@v1
+        with:
+          # (optional) Path to changelog.
+          changelog: CHANGELOG.md
+        env:
+          # (required) GitHub token for creating GitHub Releases.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   build:
     runs-on: ubuntu-latest
     steps:
